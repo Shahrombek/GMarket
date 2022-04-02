@@ -1,7 +1,16 @@
-import '../styles/globals.css'
+import { ThemeProvider } from "@mui/material/styles";
+import { useState } from "react";
+import Layout from "../components/Layout";
+import theme from "../styles/createTheme";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  const [mode, setMode] = useState("light");
+
+  return (
+    <ThemeProvider theme={theme(mode)}>
+      <Component {...pageProps} />
+    </ThemeProvider>
+  );
 }
 
-export default MyApp
+export default MyApp;
