@@ -1,14 +1,18 @@
 import { createTheme } from "@mui/material";
 import { orange } from "@mui/material/colors";
 
-const theme = (mode) =>
+const ThemeContext = (Mode) =>
   createTheme({
     palette: {
+      mode: Mode,
       primary: {
-        main: orange[500],
+        main: "rgb(36, 153, 239)",
         contrastText: "#fff",
       },
     },
+    typography: {
+      fontFamily: "Montserrat",
+    },
   });
 
-export default theme;
+export default ThemeContext;
