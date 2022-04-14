@@ -15,10 +15,10 @@ function MyApp({ Component, pageProps }) {
         <Head>
           <title>GMarket</title>
           <meta name="description" content="next app dashboard" />
-          {/* <link
+          <link
             rel="icon"
-            href="https://uko-react.vercel.app/static/logo/logo.svg"
-          /> */}
+            href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Georgetown_Hoyas_logo.svg/765px-Georgetown_Hoyas_logo.svg.png"
+          />
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
