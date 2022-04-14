@@ -1,3 +1,12 @@
 body{
     margin: 0;
+    background: #ECEFF3;
+}
+
+::-webkit-scrollbar{
+    display: none;
+    background: #f263101a;
+}
+select{
+    border: 0px !important;
 }

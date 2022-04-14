@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
     <ThemeProvider theme={ThemeContext(mode)}>
       <Provider store={store}>
         <Head>
-          <title>Chart</title>
+          <title>GMarket</title>
           <meta name="description" content="next app dashboard" />
           {/* <link
             rel="icon"
@@ -23,9 +23,9 @@ function MyApp({ Component, pageProps }) {
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
           <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap"
             rel="stylesheet"
-          ></link>
+          />
         </Head>
         <Box
           sx={{

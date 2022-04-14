@@ -9,9 +9,11 @@ const ThemeContext = (Mode) =>
         main: "rgb(36, 153, 239)",
         contrastText: "#fff",
       },
+      
     },
     typography: {
-      fontFamily: "Montserrat",
+      fontFamily: "'Inter', sans-serif",
+      color: '#2E3456'
     },
   });
 
