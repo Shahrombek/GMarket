@@ -31,6 +31,7 @@ function MyApp({ Component, pageProps }) {
           sx={{
             maxWidth: "1920px",
             margin: "0 auto",
+            background:'#ECEFF3',
           }}
         >
           <Component {...pageProps} />
